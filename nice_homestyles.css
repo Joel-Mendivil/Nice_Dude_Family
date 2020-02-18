@@ -24,7 +24,18 @@ nav#list1 a, nav#list2 a{
     border: black 3px solid;
     text-decoration: none;
 }
+nav#list1 a#info:hover{
+    background-color: rgb(110,161,113);
+    color: rgb(66,71,86);
+    border: rgb(77,120,78) 3px solid;
+}
+nav#list2 a#location:hover{
+    background-color: darkblue;
+    color: gold;
+    border: rgb(0,191,255) 3px solid;
+}
 div[class^="col-"]{
     float: left;
 }
 div.col-1-4{width: 25%}
+div.col-3-4{width: 75%}
