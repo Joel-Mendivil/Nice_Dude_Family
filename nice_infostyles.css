@@ -14,6 +14,8 @@ body{
 li{
     list-style-type: none;
 }
+
+
 nav#list1 a, nav#list2 a{
     width: 100%;
     display: block;
@@ -29,6 +31,34 @@ nav#list2 a#location:hover{
     color: gold;
     border: rgb(0,191,255) 3px solid;
 }
+
+
+button#default{
+    background-color: red;
+    color: white;
+    border: black 3px solid;
+    font-size: 18px;
+}
+button#military{
+    background-color: rgb(110,161,113);
+    color: rgb(66,71,86);
+    border: rgb(77,120,78) 3px solid;
+    font-size: 18px;
+}
+button#prince{
+    background-color: darkblue;
+    color: gold;
+    border: rgb(0,191,255) 3px solid;
+    font-size: 18px;
+}
+button#upbeat{
+    background-color: yellow;
+    color: gray;
+    border: purple 3px solid;
+    font-size: 18px;
+}
+
+
 div[class^="col-"]{
     float: left;
 }

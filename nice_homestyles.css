@@ -10,12 +10,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    border: black 3px solid;
 }
 li{
     list-style-type: none;
 }
+
+
 nav#list1 a, nav#list2 a{
-    width: 100%;
+    width: 98%;
     display: block;
     float: left;
     text-align: center;
@@ -23,6 +26,7 @@ nav#list1 a, nav#list2 a{
     background-color: red;
     border: black 3px solid;
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
 }
 nav#list1 a#info:hover{
     background-color: rgb(110,161,113);
@@ -34,6 +38,44 @@ nav#list2 a#location:hover{
     color: gold;
     border: rgb(0,191,255) 3px solid;
 }
+
+
+figcaption{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+button#default{
+    background-color: red;
+    color: white;
+    border: black 3px solid;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+button#military{
+    background-color: rgb(110,161,113);
+    color: rgb(66,71,86);
+    border: rgb(77,120,78) 3px solid;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+button#prince{
+    background-color: darkblue;
+    color: gold;
+    border: rgb(0,191,255) 3px solid;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+button#upbeat{
+    background-color: yellow;
+    color: gray;
+    border: purple 3px solid;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
 div[class^="col-"]{
     float: left;
 }
