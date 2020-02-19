@@ -1,0 +1,36 @@
+html{
+    background-color: darkblue;
+    height: auto;
+    width: 100%;
+}
+body{
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0,191,255);
+}
+li{
+    list-style-type: none;
+}
+nav#list1 a, nav#list2 a{
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    color: darkblue;
+    background-color: gold;
+    border: darkblue 3px solid;
+    text-decoration: none;
+}
+nav#list1 a#info:hover{
+    background-color: rgb(110,161,113);
+    color: rgb(66,71,86);
+    border: rgb(77,120,78) 3px solid;
+}
+div[class^="col-"]{
+    float: left;
+}
+div.col-1-4{width: 25%}
+div.col-3-4{width: 75%}
