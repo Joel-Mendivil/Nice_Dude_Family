@@ -1,0 +1,63 @@
+html{
+    background-color: rgb(77,120,78);
+    height: auto;
+    width: 100%;
+}
+body{
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(110,161,113);
+}
+li{
+    list-style-type: none;
+}
+
+
+nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
+    width: 97%;
+    display: block;
+    float: left;
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Carter One', cursive;
+    padding: 1.8px;
+}
+
+
+button#default{
+    background-color: red;
+    color: white;
+    border: black 3px solid;
+    font-size: 18px;
+}
+button#military{
+    color: rgb(225,215,152);
+    background-color: rgb(103,86,69);
+    border: rgb(66,71,86) 3px solid;
+    font-size: 18px;
+}
+button#prince{
+    background-color: darkblue;
+    color: gold;
+    border: rgb(0,191,255) 3px solid;
+    font-size: 18px;
+}
+button#upbeat{
+    background-color: yellow;
+    color: gray;
+    border: purple 3px solid;
+    font-size: 18px;
+}
+
+
+div[class^="col-"]{
+    float: left;
+}
+div.col-1-2{width: 50%}
+div.col-1-10{width: 10%}
+div.col-9-10{width: 90%}

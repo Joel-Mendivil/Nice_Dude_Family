@@ -14,6 +14,8 @@ body{
 li{
     list-style-type: none;
 }
+
+
 nav#list1 a, nav#list2 a{
     width: 100%;
     display: block;
@@ -29,6 +31,34 @@ nav#list1 a#info:hover{
     color: rgb(66,71,86);
     border: rgb(77,120,78) 3px solid;
 }
+
+
+button#default{
+    background-color: ;
+    color: ;
+    border:  3px solid;
+    font-size: 18px;
+}
+button#{
+    background-color: ;
+    color: ;
+    border:  3px solid;
+    font-size: 18px;
+}
+button#{
+    background-color: ;
+    color: ;
+    border:  3px solid;
+    font-size: 18px;
+}
+button#{
+    background-color: ;
+    color: ;
+    border:  3px solid;
+    font-size: 18px;
+}
+
+
 div[class^="col-"]{
     float: left;
 }
