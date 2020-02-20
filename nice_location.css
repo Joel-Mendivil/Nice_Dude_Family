@@ -3,40 +3,53 @@ html{
     height: auto;
     width: 100%;
 }
+div[class ^="col"]{
+    box-sizing: border-box;
+}
 body{
     width: 95%;
     min-width: 640px;
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    border: black 3px solid;
+    height: 700px;
     background-color: rgb(0,191,255);
 }
 li{
     list-style-type: none;
 }
+div.col-1-10, div.col-9-10{
+    background-color: gold;
+}
 
 
-nav#list1 a, nav#list2 a{
-    width: 100%;
+nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
+    width: 97%;
     display: block;
     float: left;
     text-align: center;
-    color: darkblue;
+    color: black;
     background-color: gold;
-    border: darkblue 3px solid;
     text-decoration: none;
+    font-family: 'Carter One', cursive;
+    padding: 1.8px;
 }
-nav#list1 a#info:hover{
-    background-color: rgb(110,161,113);
-    color: rgb(66,71,86);
-    border: rgb(77,120,78) 3px solid;
+nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
+    background: linear-gradient(90deg, gold 20%, rgb(0,191,255));
+}
+
+
+img#logo{
+    padding: 5px;
+    transform: translate(40px, 0px);
 }
 
 
 button#default{
-    background-color: ;
-    color: ;
-    border:  3px solid;
+    background-color: gold;
+    color: darkblue;
+    border: darkblue 3px solid;
     font-size: 18px;
 }
 button#{
@@ -62,5 +75,6 @@ button#{
 div[class^="col-"]{
     float: left;
 }
-div.col-1-4{width: 25%}
-div.col-3-4{width: 75%}
+div.col-1-2{width: 50%}
+div.col-1-10{width: 10%}
+div.col-9-10{width: 90%}
