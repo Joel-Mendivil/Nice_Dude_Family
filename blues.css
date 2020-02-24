@@ -1,0 +1,107 @@
+html{
+    background: url("camo.jpg");
+    height: auto;
+    width: 100%;
+}
+body{
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    border: black 3px solid;
+    background-color: rgb(71,128,78);
+}
+li{
+    list-style-type: none;
+}
+div.col-1-10, div.col-9-10{
+    background-color: rgb(103,86,69);
+}
+
+
+nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
+    width: 97%;
+    display: block;
+    float: left;
+    text-align: center;
+    color: rgb(225,215,152);
+    background-color: rgb(103,86,69);
+    text-decoration: none;
+    font-family: 'Carter One', cursive;
+    padding: 1.8px;
+}
+nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
+    background: linear-gradient(90deg, rgb(103,86,69) 20%, rgb(77,120,78));
+}
+
+
+img#logo{
+    padding: 5px;
+    transform: translate(40px, 0px);
+}
+img#sedan{
+    border: black 3px solid;
+    width: 100%;
+    transform: translate(15px,5px);
+}
+
+
+div#description{
+    background: rgb(110,161,113);
+    border: black 3px solid;
+    transform: translate(5px, 5px);
+    width: 45%;
+}
+h1, h2, p{
+    padding: 5px;
+}
+h3{
+    background-color: rgb(71,128,78)
+}
+figcaption{
+    background-color: rgb(225,215,152);
+    transform: translate(15px, 5px);
+    font-family: 'Carter One', cursive;
+    text-align: center;
+}
+
+button#default{
+    background-color: white;
+    color: black;
+    border: black 3px solid;
+    font-size: 18px;
+    transform: translate(0px, 10px);
+}
+button#neon{
+    color: rgb(82, 255, 82);
+    background-color: rgb(255, 62, 207);
+    border: rgb(81, 236, 223) 3px solid;
+    font-size: 18px;
+    transform: translate(0px, 15px);
+}
+button#blues{
+    background-color: rgb(55, 100, 126);
+    color: rgb(238, 184, 68);
+    border: rgb(22, 21, 48) 3px solid;
+    font-size: 18px;
+    transform: translate(0px, 20px);
+}
+button#brown{
+    background-color: rgb(218, 204, 165);
+    color: rgb(93, 119, 118);
+    border: rgb(119, 100, 71) 3px solid;
+    font-size: 18px;
+    transform: translate(0px, 25px);
+}
+
+
+div[class^="col-"]{
+    float: left;
+}
+div.col-1-2{width: 50%}
+div.col-1-10{width: 10%}
+div.col-9-10{width: 90%}
+div.col-49{width: 49%}
+div.col-51{width: 51%}
