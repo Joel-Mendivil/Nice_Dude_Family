@@ -1,5 +1,5 @@
 html{
-    background: url("camo.jpg");
+    background: rgb(41,41,41);
     height: auto;
     width: 100%;
 }
@@ -11,13 +11,13 @@ body{
     margin-right: auto;
     height: 700px;
     border: black 3px solid;
-    background-color: rgb(71,128,78);
+    background-color: red;
 }
 li{
     list-style-type: none;
 }
 div.col-1-10, div.col-9-10{
-    background-color: rgb(103,86,69);
+    background-color: white;
 }
 
 
@@ -26,14 +26,15 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     display: block;
     float: left;
     text-align: center;
-    color: rgb(225,215,152);
-    background-color: rgb(103,86,69);
+    color: black;
+    background-color: white;
     text-decoration: none;
     font-family: 'Carter One', cursive;
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, rgb(103,86,69) 20%, rgb(77,120,78));
+    background: linear-gradient(90deg, white 20%, rgb(41,41,41));
+    color: red;
 }
 
 
@@ -49,22 +50,22 @@ img#sedan{
 
 
 div#description{
-    background: rgb(110,161,113);
+    background: white;
     border: black 3px solid;
     transform: translate(5px, 5px);
     width: 45%;
-    color: rgb(66,71,86);
+    color: black;
 }
 h1, h2, p{
     padding: 5px;
-    color: rgb(66,71,86);
+    color: black;
 }
 figcaption{
-    background-color: rgb(225,215,152);
+    background-color: white;
     transform: translate(15px, 5px);
     font-family: 'Carter One', cursive;
     text-align: center;
-    color: rgb(66,71,86);
+    color: black;
 }
 
 
