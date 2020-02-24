@@ -7,6 +7,7 @@
     <title>Info and Price</title>
     <link href="nice_infostyles.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
+    <script src="nice_infochanges.js" defer></script>
 
 </head>
 <body>
@@ -20,10 +21,10 @@
                     <nav id="list1">
                         <div class="row">
                             <div class="col-1-2">
-                                <li><a href="">Environmental Effects</a></li>
+                                <li><a href="environment.html">Environmental Effects</a></li>
                             </div>
                             <div class="col-1-2">
-                                <li><a href="">Improve the World</a></li>
+                                <li><a href="improveWrld.html">Improve the World</a></li>
                             </div>
                         </div>
                     </nav>
@@ -83,22 +84,22 @@
             <div id="image" class="col-51">
                 <img src="sedan.jpeg" width="390px" height="300px" id="sedan"/>
                 <figcaption>Price: $250,000 in total or $520 per month</figcaption>
-            </div> 
+            </div>
         </section>
     </div>
 
     <div class="row">
         <div class="row">
-            <center><button type="button" name="change" onclick="" id="default">Default</button></center>
+            <center><button type="button" name="change" onclick="defaultTheme()" id="default">Default</button></center>
         </div>
         <div class="row">
-            <center><button type="button" name="change" onclick="" id="slick">Slick</button></center>
+            <center><button type="button" name="change" onclick="slickTheme()" id="slick">Slick</button></center>
         </div>
         <div class="row">
-            <center><button type="button" name="change" onclick="" id="bubble">Bubble Gum</button></center>
+            <center><button type="button" name="change" onclick="westmecTheme()" id="west-mec">West-Mec</button></center>
         </div>
         <div class="row">
-            <center><button type="button" name="change" onclick="" id="baw">Black and White</button></center>
+            <center><button type="button" name="change" onclick="bawTheme()" id="baw">Black and White</button></center>
         </div>
     </div> 
 </body>
