@@ -31,6 +31,9 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     font-family: 'Carter One', cursive;
     padding: 1.8px;
 }
+nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
+    text-decoration: underline;
+}
 
 
 img#logo{
@@ -47,7 +50,6 @@ figcaption{
     text-align: center;
     font-family: 'Carter One', cursive;
     font-size: 48px;
-    transform: translate(10px, 10px);
     color: white;
 }
 
