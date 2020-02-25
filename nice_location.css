@@ -12,7 +12,7 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    border: black 3px solid;
+    border: gold 3px solid;
     height: 700px;
     background-color: rgb(0,191,255);
 }
@@ -47,28 +47,32 @@ img#logo{
     transform: translate(40px, 0px);
 }
 img#mapLocation{
-    border: black 3px solid;
+    border: gold 3px solid;
     width: 100%;
-    transform: translate(15px,5px);
+    transform: translate(15px,-30px);
 }
 
 
 div#description{
     background: gold;
     border: black 3px solid;
-    transform: translate(5px, 5px);
+    transform: translate(5px, -30px);
     width: 45%;
     color: darkblue;
 }
 h1, h2, p{
     padding: 5px;
 }
+h1#title{
+    font-size: 48px;
+    color: darkblue;
+}
 figcaption{
     background-color: darkblue;
-    transform: translate(15px, 5px);
     font-family: 'Carter One', cursive;
     text-align: center;
-    color: gold
+    color: gold;
+    transform: translate(17.5px,-30px);
 }
 div#description a{
     color: darkblue;
@@ -80,28 +84,28 @@ button#default{
     color: darkblue;
     border: darkblue 3px solid;
     font-size: 18px;
-    transform: translate(0px, 10px);
+    transform: translate(0px, -10px);
 }
 button#luxe{
     background-color: black;
     color: gold;
     border: gold 3px solid;
     font-size: 18px;
-    transform: translate(0px, 15px);
+    transform: translate(0px, 0px);
 }
 button#storm{
     background-color: rgb(178, 44, 255);
     color: purple;
     border: rgb(155, 155, 155) 3px solid;
     font-size: 18px;
-    transform: translate(0px, 20px);
+    transform: translate(0px, 10px);
 }
 button#vendetta{
     background-color: rgb(0, 137, 201);
     color: white;
     border: rgb(160, 0, 0) 3px solid;
     font-size: 18px;
-    transform: translate(0px, 25px);
+    transform: translate(0px, 20px);
 }
 
 

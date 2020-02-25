@@ -33,8 +33,8 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, white 20%, rgb(56,56,56));
-    color: rgb(255, 153, 0);
+    background: linear-gradient(90deg, white 20%, rgb(255, 153, 0));
+    color: rgb(56, 56, 56);
 }
 
 
@@ -45,14 +45,14 @@ img#logo{
 img#sedan{
     border: black 3px solid;
     width: 100%;
-    transform: translate(15px,5px);
+    transform: translate(15px,-30px);
 }
 
 
 div#description{
     background: rgb(56, 56, 56);
     border: black 3px solid;
-    transform: translate(5px, 5px);
+    transform: translate(5px, -30px);
     width: 45%;
     color: white;
 }
@@ -60,9 +60,13 @@ h1, h2, p{
     padding: 5px;
     color: white;
 }
+h1#title{
+    font-size: 48px;
+    color: white;
+}
 figcaption{
     background-color: rgb(56, 56, 56);
-    transform: translate(15px, 5px);
+    transform: translate(15px, -30px);
     font-family: 'Carter One', cursive;
     text-align: center;
     color: white;
@@ -74,28 +78,28 @@ button#default{
     color: rgb(225,215,152);
     border: rgb(66,71,86) 3px solid;
     font-size: 18px;
-    transform: translate(0px, 10px);
+    transform: translate(0px, -20px);
 }
 button#slick{
     color: white;
     background-color: red;
     border: black 3px solid;
     font-size: 18px;
-    transform: translate(0px, 15px);
+    transform: translate(0px, -15px);
 }
 button#west-mec{
     background-color: rgb(255, 153, 0);
     color: white;
     border: rgb(56, 56, 56) 3px solid;
     font-size: 18px;
-    transform: translate(0px, 20px);
+    transform: translate(0px, -10px);
 }
 button#baw{
     background-color: white;
     color: black;
     border: black 3px solid;
     font-size: 18px;
-    transform: translate(0px, 25px);
+    transform: translate(0px, -5px);
 }
 
 

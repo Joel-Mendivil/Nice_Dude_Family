@@ -49,26 +49,30 @@ img#logo{
 img#mapLocation{
     border: white 3px solid;
     width: 100%;
-    transform: translate(15px,5px);
+    transform: translate(15px,-30px);
 }
 
 
 div#description{
     background: rgb(0, 137, 201);
     border: white 3px solid;
-    transform: translate(5px, 5px);
+    transform: translate(5px, -30px);
     width: 45%;
     color: white;
 }
 h1, h2, p{
     padding: 5px;
 }
+h1#title{
+    font-size: 48px;
+    color: white;
+}
 figcaption{
     background-color: rgb(0, 137, 201);
-    transform: translate(15px, 5px);
     font-family: 'Carter One', cursive;
     text-align: center;
     color: white;
+    transform: translate(17.5px,-30px);
 }
 div#description a{
     color: white;
@@ -80,28 +84,28 @@ button#default{
     color: darkblue;
     border: darkblue 3px solid;
     font-size: 18px;
-    transform: translate(0px, 10px);
+    transform: translate(0px, -10px);
 }
 button#luxe{
     background-color: black;
     color: gold;
     border: gold 3px solid;
     font-size: 18px;
-    transform: translate(0px, 15px);
+    transform: translate(0px, 0px);
 }
 button#storm{
     background-color: rgb(178, 44, 255);
     color: purple;
     border: rgb(155, 155, 155) 3px solid;
     font-size: 18px;
-    transform: translate(0px, 20px);
+    transform: translate(0px, 10px);
 }
 button#vendetta{
     background-color: white;
     color: rgb(160, 0, 0);
     border: rgb(0, 137, 201) 3px solid;
     font-size: 18px;
-    transform: translate(0px, 25px);
+    transform: translate(0px, 20px);
 }
 
 

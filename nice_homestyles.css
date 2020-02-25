@@ -1,5 +1,6 @@
 html{
-    background-color: rgb(41, 41, 41);
+    background: url("black_chrome.jpg");
+    background-size: 960px 700px;
     height: auto;
     width: 100%;
 }
