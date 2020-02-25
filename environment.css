@@ -35,7 +35,7 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, rgb(0, 0, 0) 20%, rgb(112, 109, 84));
+    background: linear-gradient(90deg, rgb(241, 191, 191) 20%, rgb(235, 183, 160));
 }
 
 

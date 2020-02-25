@@ -18,7 +18,7 @@ li{
     list-style-type: none;
 }
 div.col-1-10, div.col-9-10{
-    background-color: rgb(227, 172, 238);
+    background-color: rgb(217, 136, 224);
 }
 
 
@@ -34,7 +34,7 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, rgb(235, 195, 195) 20%, rgb(214, 201, 82));
+    background: linear-gradient(90deg, rgb(229, 177, 236) 20%, rgb(223, 221, 205));
 }
 
 
@@ -50,7 +50,7 @@ img#sedan{
 
 
 div#description{
-    background: rgb(226, 172, 141);
+    background: rgb(229, 175, 240);
     border: black 3px solid;
     transform: translate(5px, 5px);
     width: 45%;
