@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(238, 147, 208); ;
+    background-color: rgb(168, 73, 206); ;
     height: auto;
     width: 100%;
 }
@@ -18,7 +18,7 @@ li{
     list-style-type: none;
 }
 div.col-1-10, div.col-9-10{
-    background-color: rgb(243, 181, 233);
+    background-color: rgb(227, 172, 238);
 }
 
 
@@ -28,13 +28,13 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     float: left;
     text-align: center;
     color: rgb(0, 0, 0);
-    background-color: rgb(243, 181, 233);
+    background-color: rgb(217, 136, 224);
     text-decoration: none;
     font-family: 'Carter One', cursive;
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, rgb(228, 153, 153) 20%, rgb(230, 228, 214));
+    background: linear-gradient(90deg, rgb(235, 195, 195) 20%, rgb(214, 201, 82));
 }
 
 
@@ -50,7 +50,7 @@ img#sedan{
 
 
 div#description{
-    background: rgb(250, 200, 228);
+    background: rgb(226, 172, 141);
     border: black 3px solid;
     transform: translate(5px, 5px);
     width: 45%;
