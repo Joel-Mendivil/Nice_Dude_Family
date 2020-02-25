@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(247, 240, 240);
     height: auto;
     width: 100%;
 }
@@ -13,7 +13,7 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background: url("highway2.jpg");
+    background: url("highway_yellow.jpg");
     border: black 3px solid;
     text-align: center;
 }
@@ -21,15 +21,15 @@ li{
     list-style-type: none;
 }
 div.col-1-5, div.col-4-5{
-    background-color: white;
+    background-color: rgb(27, 24, 24);
 }
 nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     width: 99%;
     display: block;
     float: left;
     text-align: center;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgb(27, 24, 24);
     text-decoration: none;
     font-family: 'Carter One', cursive;
     padding: 1.8px;
@@ -72,11 +72,11 @@ aside{
     padding-top: 30px;
     margin-bottom: 20px;
     width: 90%;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(247, 240, 240);
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
-    color: white;
+    color: rgb(27, 24, 24);
     border: 3px solid black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

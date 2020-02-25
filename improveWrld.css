@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(41, 41, 41);
+    height: auto;
+    width: 100%;
+}
+body{
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("highway2.jpg");
+    border: black 3px solid;
+    height: 700px;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+
+div.col-1-10, div.col-9-10{
+    background-color: white;
+}
+nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
+    width: 97%;
+    display: block;
+    float: left;
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Carter One', cursive;
+    padding: 1.8px;
+}
+
+
+img#logo{
+    padding: 5px;
+    transform: translate(40px, 0px);
+}
+div[class^="col-"]{
+    float: left;
+}
+div.col-1-2{width: 50%}
+div.col-1-10{width: 10%}
+div.col-9-10{width: 90%}
