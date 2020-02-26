@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(202, 163, 120); ;
+    background-color: rgb(236, 235, 142); ;
     height: auto;
     width: 100%;
     background: 
@@ -19,7 +19,7 @@ li{
     list-style-type: none;
 }
 div.col-1-10, div.col-9-10{
-    background-color: rgb(211, 161, 142);
+    background-color: rgb(240, 225, 15);
 }
 
 
@@ -29,16 +29,16 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     float: left;
     text-align: center;
     color: rgb(0, 0, 0);
-    background-color: rgb(211, 161, 142);
+    background-color: rgb(240, 225, 15);
     text-decoration: none;
     font-family: 'Carter One', cursive;
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, rgb(241, 191, 191) 20%, rgb(235, 183, 160));
+    background: linear-gradient(90deg, rgb(224, 216, 141) 20%, rgb(235, 228, 160));
 }
 
-
+z
 img#logo{
     padding: 5px;
     transform: translate(40px, 0px);
@@ -51,11 +51,11 @@ img#sedan{
 
 
 div#description{
-    background: rgb(226, 172, 141);
+    background: rgb(226, 217, 141);
     border: black 3px solid;
     transform: translate(5px, 5px);
     width: 45%;
-    color: rgb(60, 92, 187);
+    color: rgb(182, 170, 62);
 }
 h1, h2, p{
     padding: 5px;
@@ -64,28 +64,28 @@ h1, h2, p{
 
 
 button#default{
-    background-color: rgb(208, 230, 89);
+    background-color: rgb(230, 105, 89);
     color: rgb(5, 5, 5);
     border: rgb(66,71,86) 3px solid;
     font-size: 18px;
     transform: translate(-130px, 550px);
 }
 button#pink{
-    background-color: rgb(208, 230, 89);
+    background-color: rgb(230, 105, 89);
     color: rgb(20, 20, 19);
     border: rgb(66,71,86) 3px solid;
     font-size: 18px;
     transform: translate(-20px, 520px);
 }
 button#blue{
-    background-color: rgb(208, 230, 89);
+    background-color: rgb(230, 105, 89);
     color: rgb(19, 18, 17);
     border: rgb(66,71,86) 3px solid;
     font-size: 18px;
     transform: translate(80px, 490px);
 }
 button#purple{
-    background-color: rgb(208, 230, 89);
+    background-color: rgb(230, 105, 89);
     color: rgb(14, 13, 12);
     border: rgb(66,71,86) 3px solid;
     font-size: 18px;

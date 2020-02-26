@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Improve World</title>
+    <title>Environment</title>
     <link href="improveWrld.css" rel="stylesheet">
+    <script src="improveWrld.js" defer></script>
+
 </head>
 <body>
-         <div class="row">
+        <div class="row">
             <div class="col-1-10">
-                <a href="nice_index.html"><img src="logo design .jpg" id="logo" width="80px" height="100px"/></a>
+                <a href="nice_index.html"><img src="new logo.jpg" id="logo" width="80px" height="100px"/></a>
             </div>
             <div class="col-9-10">
                 <div class="row">
@@ -52,6 +54,7 @@
                                 </div>
                                 <div class="col-1-2">
                                     <li><a href="">About Us</a></li>
+                                    
                                 </div>
                             </div>
                         </nav>
@@ -59,8 +62,38 @@
                 </div>
             </div>
         </div>
-        <p>Electric cars reduct local air pollution.
-            It has renewable energy and can reduce greenhouse gases.
-             </p>
+        <div class ="row">
+            <section id="leftColumn">
+                <div id="description" class="col-49">
+                    <h2>How do electric cars improve the world?</h2>
+                    <p> Electric cars can reduct local air pollution. It has renewable energy and can reduce greenhouse gases. 
+                        Over a quarter of greenhouse gases produced in the US are a result of transportation and contribute to overall pollution levels. Electric cars have no emissions and make less noise so their increased use will mean cleaner and quieter cities and towns and improve quality of life. </p>
+                    <h2>How will electric cars affect the future?</h2>
+                    <p>With electrical vehicles already producing fewer emissions through their lifetime regardless of the energy source, it shows that EVs are indeed the vehicle of the future. Car manufacturers are also accepting the fact that electric cars are less polluting and producing more EVs will help reduce total carbon emissions.
+                        </p>
+
+                </div>
+            </section>
+            <section id="rightColumn">
+                <div id="image" class="col-51">
+                    
+                    <figcaption></figcaption>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <div class="row">
+                <center><button type="button" name="change" onclick="button()" id="default">Default</button></center>
+            </div>
+            <div class="row">
+                <center><button type="button" name="change" onclick="yelloImp()" id="yellow">Pink</button></center>
+            </div>
+            <div class="row">
+                <center><button type="button" name="change" onclick="greenImp()" id="green">Blue</button></center>
+            </div>
+            <div class="row">
+                <center><button type="button" name="change" onclick="redImp()" id="red">Purple</button></center>
+            </div>
+        </div>
 </body>
 </html>
