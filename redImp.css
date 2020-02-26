@@ -12,7 +12,7 @@ body{
     margin-right: auto;
     height: 700px;
     border: black 3px solid;
-    background: url("improveworld.jpg");
+    background: url("envclean.jpg");
     background-size: 960px 700px;
 }
 li{
@@ -70,21 +70,21 @@ button#default{
     font-size: 18px;
     transform: translate(-130px, 550px);
 }
-button#pink{
+button#yellow{
     background-color: rgb(241, 243, 141);
     color: rgb(20, 20, 19);
     border: rgb(66,71,86) 3px solid;
     font-size: 18px;
     transform: translate(-20px, 520px);
 }
-button#blue{
+button#green{
     background-color: rgb(241, 243, 141);
     color: rgb(19, 18, 17);
     border: rgb(66,71,86) 3px solid;
     font-size: 18px;
     transform: translate(80px, 490px);
 }
-button#purple{
+button#red{
     background-color: rgb(241, 243, 141);
     color: rgb(14, 13, 12);
     border: rgb(66,71,86) 3px solid;
