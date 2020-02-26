@@ -3,7 +3,7 @@ function button(){
     document.getElementById("logo").setAttribute("src", "new logo.jpg");
 }
 
-function pinkTheme(){
+function pinkEnv(){
     document.getElementsByTagName("link")[0].setAttribute("href", "pinkEnv.css");
     document.getElementById("logo").setAttribute("src", "2logodesign.jpeg .jpg");
 }

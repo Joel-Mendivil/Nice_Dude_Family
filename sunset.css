@@ -1,5 +1,5 @@
 html{
-    background: url("sunsetb.jpeg");
+    background: rgb(241, 215, 99);
      height: auto;
      width: 100%;
      background-position: center; /* Center the image */
@@ -44,11 +44,10 @@ html{
      padding: 5px;
      transform: translate(40px, 0px);
  }
- img#sedan{
-     border: black 3px solid;
-     width: 100%;
-     transform: translate(15px,5px);
- }
+ img#car{
+    border: black 3px solid;
+    
+}
  
  
  div#description{
@@ -59,6 +58,7 @@ html{
  }
  h1, h2, p{
      padding: 5px;
+     font-family: 'Carter One', cursive;
  }
  h3{
      background-color: rgb(71,128,78)
