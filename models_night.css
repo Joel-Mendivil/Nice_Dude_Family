@@ -1,5 +1,6 @@
 html{
-    background-color: rgb(184, 184, 187);
+    background: url("baw_background.jpg");
+    background-size: 960px 1200px;
     height: auto;
     width: 100%;
 }
