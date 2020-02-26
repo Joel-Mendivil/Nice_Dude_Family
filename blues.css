@@ -1,23 +1,27 @@
+
 html{
-    background: url("camo.jpg");
+    background: url("blueb.png");
     height: auto;
     width: 100%;
-}
-body{
-    width: 95%;
-    min-width: 640px;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 700px;
-    border: black 3px solid;
-    background-color: rgb(71,128,78);
-}
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover;
+ }
+ body{
+     width: 100%;
+     min-width: 640px;
+     max-width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+     height: 1000px;
+     border: rgb(1, 36, 83) 3px solid;
+    background-color: rgb(71, 115, 128);
+ }
 li{
     list-style-type: none;
 }
 div.col-1-10, div.col-9-10{
-    background-color: rgb(103,86,69);
+    background-color: rgb(69, 99, 103);
 }
 
 
@@ -27,13 +31,13 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     float: left;
     text-align: center;
     color: rgb(225,215,152);
-    background-color: rgb(103,86,69);
+    background-color: rgb(69, 99, 103);
     text-decoration: none;
     font-family: 'Carter One', cursive;
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, rgb(103,86,69) 20%, rgb(77,120,78));
+    background: linear-gradient(90deg, rgb(212, 164, 116) 20%, rgb(233, 211, 88));
 }
 
 
@@ -49,19 +53,20 @@ img#sedan{
 
 
 div#description{
-    background: rgb(110,161,113);
+    background: rgb(110, 155, 161);
     border: black 3px solid;
     transform: translate(5px, 5px);
     width: 45%;
 }
 h1, h2, p{
     padding: 5px;
+    font-family: 'Carter One', cursive;
 }
 h3{
-    background-color: rgb(71,128,78)
+    background-color: rgb(71, 94, 128)
 }
 figcaption{
-    background-color: rgb(225,215,152);
+    background-color: rgb(18, 65, 87);
     transform: translate(15px, 5px);
     font-family: 'Carter One', cursive;
     text-align: center;

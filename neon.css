@@ -1,23 +1,27 @@
 html{
-    background: url("camo.jpg");
-    height: auto;
-    width: 100%;
-}
-body{
-    width: 95%;
-    min-width: 640px;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 700px;
-    border: black 3px solid;
-    background-color: rgb(71,128,78);
-}
+    background: rgb(251, 255, 0);
+     height: auto;
+     width: 100%;
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover;
+ }
+ body{
+     width: 100%;
+     min-width: 640px;
+     max-width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+     height: 1000px;
+     border: rgb(61, 242, 255) 3px solid;
+     background-color: rgb(247, 53, 188);
+ }
+
 li{
     list-style-type: none;
 }
 div.col-1-10, div.col-9-10{
-    background-color: rgb(103,86,69);
+    background-color: rgb(157, 255, 77);
 }
 
 
@@ -26,14 +30,14 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     display: block;
     float: left;
     text-align: center;
-    color: rgb(225,215,152);
-    background-color: rgb(103,86,69);
+    color: rgb(255, 255, 255);
+    background-color:rgb(157, 255, 77);
     text-decoration: none;
     font-family: 'Carter One', cursive;
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, rgb(103,86,69) 20%, rgb(77,120,78));
+    background: linear-gradient(90deg, rgb(55, 232, 255) 20%, rgb(242, 253, 255));
 }
 
 
@@ -56,6 +60,8 @@ div#description{
 }
 h1, h2, p{
     padding: 5px;
+    font-family: 'Carter One', cursive;
+
 }
 h3{
     background-color: rgb(71,128,78)
