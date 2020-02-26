@@ -15,6 +15,7 @@ body{
     margin-right: auto;
     border: black 3px solid;
     text-align: center;
+    background-color: rgb(206, 201, 201);
 }
 li{
     list-style-type: none;
@@ -40,7 +41,7 @@ img#logo{
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
     background-color: rgb(41, 41, 41);
-    color: rgb(184, 6, 6);
+    color: white;
 }
 
 div.col-1-2{width: 50%}
@@ -53,7 +54,6 @@ div[class^="col-"]{
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.8);
     width: 91.8%;
     padding: 20px 40px 20px 40px;
     display: -webkit-flex;
@@ -80,6 +80,12 @@ section {
  }
  form#pay{
      background-color: rgba(106, 88, 64, 0.4);
+ }
+ fieldset#billing{
+    padding-left: 16%;
+ }
+ fieldset#cardInfo{
+    padding-left: 16%;
  }
 
  form#pay input#subButton {
