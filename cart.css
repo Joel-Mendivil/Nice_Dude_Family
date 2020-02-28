@@ -1,10 +1,16 @@
 html{
-    background-color: rgb(41, 41, 41);
+    background: url("black_chrome.jpg");
+    background-size: 960px 700px;
     height: auto;
     width: 100%;
 }
 div[class ~= "col"]{
     box-sizing: border-box;
+}
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
 }
 body{
     width: 95%;
@@ -20,7 +26,7 @@ body{
 li{
     list-style-type: none;
 }
-div.col-1-5, div.col-4-5{
+div.col-1-10, div.col-9-10{
     background-color: white;
 }
 nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
@@ -40,14 +46,14 @@ img#logo{
     transform: translate(40px, 0px);
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background-color: rgb(41, 41, 41);
-    color: white;
+    background: linear-gradient(90deg, white 20%, rgb(41,41,41));
+    color: red;
 }
 
 div.col-1-2{width: 50%}
 div.col-2-5{width: 40%}
-div.col-1-5{width: 20%}
-div.col-4-5{width: 80%}
+div.col-1-10{width: 10%}
+div.col-9-10{width: 90%}
 
 div[class^="col-"]{
     float: left;
@@ -77,25 +83,37 @@ section {
     margin-top: 25px;
     margin-right: 20px;
     float: left;
+    border-radius: 10px;
  }
  form#pay{
      background-color: rgba(106, 88, 64, 0.4);
  }
  fieldset#billing{
-    padding-left: 16%;
+    padding-left: 10%;
  }
  fieldset#cardInfo{
-    padding-left: 16%;
+    padding-left: 10%;
  }
 
  form#pay input#subButton {
     display: block;
-    width: 180px;
+    height: 40px;
+    width: 250px;
     margin: 10px auto;
     float: none;
     clear: left;
-    font-size: 1em;
-    border-radius: 10px;
+    letter-spacing: 4px;
+    font-size: 1.4em;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(238, 231, 231);
+    background-color: rgb(180, 12, 12);
+    text-shadow: rgb(53, 48, 48) 2px 2px 2px;
+ }
+ form#pay input#subButton:hover{
+    color:rgb(238, 231, 231);
+    background-color: rgb(53, 48, 48);
+    text-shadow: rgb(180, 12, 12) 2px 2px 2px;
  }
 
  label.cardLabel {
@@ -114,7 +132,7 @@ section {
     display: block;
     float: left;
     clear: left;
-    font-size: 0.9em;
+    font-size: 1.2em;
     margin-bottom: 10px;
     margin-right: 10px;
     width: 180px;
@@ -128,3 +146,20 @@ section {
     box-shadow: 0px 0px 15px white;
  }
  
+ legend{
+     font-size: 1.5em;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ input{
+     width: 40%;
+     margin-bottom: 20px;
+     height: 20px;
+     font-size: 1em;
+ }
+
+ select{
+    height: fit-content;
+    width: 95px;
+    font-size: 0.9em;
+ }
