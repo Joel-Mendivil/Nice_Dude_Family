@@ -43,8 +43,7 @@ img#logo{
     transform: translate(40px, 0px);
 }
 img#sportCar{
-    border: black 3px solid;
-    transform: translate(0px, 40px);
+    transform: translate(10px, -50px);
 }
 
 

@@ -11,7 +11,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 700px;
-    border: black 3px solid;
+    border: white 3px solid;
     background: url("red_tint.jpg");
     background-size: 960px 700px;
 }
@@ -72,36 +72,6 @@ figcaption{
     font-family: 'Carter One', cursive;
     text-align: center;
     color: black;
-}
-
-
-button#default{
-    background-color: rgb(103,86,69);
-    color: rgb(225,215,152);
-    border: rgb(66,71,86) 3px solid;
-    font-size: 18px;
-    transform: translate(0px, -20px);
-}
-button#slick{
-    color: white;
-    background-color: red;
-    border: black 3px solid;
-    font-size: 18px;
-    transform: translate(0px, -15px);
-}
-button#west-mec{
-    background-color: rgb(255, 153, 0);
-    color: white;
-    border: rgb(56, 56, 56) 3px solid;
-    font-size: 18px;
-    transform: translate(0px, -10px);
-}
-button#baw{
-    background-color: white;
-    color: black;
-    border: black 3px solid;
-    font-size: 18px;
-    transform: translate(0px, -5px);
 }
 
 

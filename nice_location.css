@@ -1,5 +1,6 @@
 html{
-    background: darkblue;
+    background: url("black_chrome.jpg");
+    background-size: 960px 700px;
     height: auto;
     width: 100%;
 }
@@ -12,15 +13,16 @@ body{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    border: gold 3px solid;
+    border: black 3px solid;
     height: 700px;
-    background-color: rgb(0,191,255);
+    background: url("red_tint.jpg");
+    background-size: 960px 700px;
 }
 li{
     list-style-type: none;
 }
 div.col-1-10, div.col-9-10{
-    background-color: gold;
+    background-color: white;
 }
 
 
@@ -30,15 +32,15 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     float: left;
     text-align: center;
     color: black;
-    background-color: gold;
+    background-color: white;
     text-decoration: none;
     font-family: 'Carter One', cursive;
     padding: 1.8px;
-    color: darkblue;
+    color: black;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, gold 20%, rgb(0,191,255));
-    color: darkblue;
+    background: linear-gradient(90deg, white 20%, rgb(41,41,41));
+    color: red;
 }
 
 
@@ -47,65 +49,35 @@ img#logo{
     transform: translate(40px, 0px);
 }
 img#mapLocation{
-    border: gold 3px solid;
+    border: white 3px solid;
     width: 100%;
     transform: translate(15px,-30px);
 }
 
 
 div#description{
-    background: gold;
-    border: black 3px solid;
+    background: black;
+    border: white 3px solid;
     transform: translate(5px, -30px);
     width: 45%;
-    color: darkblue;
+    color: white;
 }
 h1, h2, p{
     padding: 5px;
 }
 h1#title{
     font-size: 48px;
-    color: darkblue;
+    color: white;
 }
 figcaption{
-    background-color: darkblue;
+    background-color: white;
     font-family: 'Carter One', cursive;
     text-align: center;
-    color: gold;
+    color: black;
     transform: translate(17.5px,-30px);
 }
 div#description a{
-    color: darkblue;
-}
-
-
-button#default{
-    background-color: gold;
-    color: darkblue;
-    border: darkblue 3px solid;
-    font-size: 18px;
-    transform: translate(0px, -10px);
-}
-button#luxe{
-    background-color: black;
-    color: gold;
-    border: gold 3px solid;
-    font-size: 18px;
-    transform: translate(0px, 0px);
-}
-button#storm{
-    background-color: rgb(178, 44, 255);
-    color: purple;
-    border: rgb(155, 155, 155) 3px solid;
-    font-size: 18px;
-    transform: translate(0px, 10px);
-}
-button#vendetta{
-    background-color: rgb(0, 137, 201);
     color: white;
-    border: rgb(160, 0, 0) 3px solid;
-    font-size: 18px;
-    transform: translate(0px, 20px);
 }
 
 

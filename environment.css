@@ -1,8 +1,8 @@
 html{
-    background-color: rgb(202, 163, 120); ;
+    background: url("black_chrome.jpg");
+    background-size: 960px 800px;
     height: auto;
     width: 100%;
-    background: 
 }
 body{
     width: 95%;
@@ -11,15 +11,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 700px;
-    border: black 3px solid;
-    background: url("environment.jpeg");
+    border: white 3px solid;
+    background: url("red_tint.jpg");
     background-size: 960px 700px;
 }
 li{
     list-style-type: none;
 }
 div.col-1-10, div.col-9-10{
-    background-color: rgb(211, 161, 142);
+    background-color: white;
 }
 
 
@@ -28,14 +28,15 @@ nav#list1 a, nav#list2 a, nav#list3 a, nav#list4 a{
     display: block;
     float: left;
     text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: rgb(211, 161, 142);
+    color: black;
+    background-color: white;
     text-decoration: none;
     font-family: 'Carter One', cursive;
     padding: 1.8px;
 }
 nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
-    background: linear-gradient(90deg, rgb(241, 191, 191) 20%, rgb(235, 183, 160));
+    background: linear-gradient(90deg, white 20%, rgb(41,41,41));
+    color: red;
 }
 
 
@@ -46,52 +47,31 @@ img#logo{
 img#sedan{
     border: black 3px solid;
     width: 100%;
-    transform: translate(15px,5px);
+    transform: translate(15px,-30px);
 }
 
 
 div#description{
-    background: rgb(226, 172, 141);
+    background: white;
     border: black 3px solid;
-    transform: translate(5px, 5px);
+    transform: translate(5px, -30px);
     width: 45%;
-    color: rgb(60, 92, 187);
+    color: black;
 }
 h1, h2, p{
     padding: 5px;
-    color: rgb(66,71,86);
+    color: black;
 }
-
-
-button#default{
-    background-color: rgb(208, 230, 89);
-    color: rgb(5, 5, 5);
-    border: rgb(66,71,86) 3px solid;
-    font-size: 18px;
-    transform: translate(-130px, 550px);
+h1#title{
+    font-size: 48px;
+    color: white;
 }
-button#pink{
-    background-color: rgb(208, 230, 89);
-    color: rgb(20, 20, 19);
-    border: rgb(66,71,86) 3px solid;
-    font-size: 18px;
-    transform: translate(-20px, 520px);
-}
-button#blue{
-    background-color: rgb(208, 230, 89);
-    color: rgb(19, 18, 17);
-    border: rgb(66,71,86) 3px solid;
-    font-size: 18px;
-    transform: translate(80px, 490px);
-}
-button#purple{
-    background-color: rgb(208, 230, 89);
-    color: rgb(14, 13, 12);
-    border: rgb(66,71,86) 3px solid;
-    font-size: 18px;
-    transform: translate(180px, 460px);
-    
-    
+figcaption{
+    background-color: white;
+    transform: translate(15px, -30px);
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    color: black;
 }
 
 
