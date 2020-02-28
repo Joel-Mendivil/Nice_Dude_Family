@@ -36,6 +36,20 @@ nav#list1 a:hover, nav#list2 a:hover, nav#list3 a:hover, nav#list4 a:hover{
     background: linear-gradient(90deg, white 20%, rgb(41,41,41));
     color: red;
 }
+h1#gt, h1#horizon, h1#taiga{
+    background-color: black;
+    color: white;
+    width: 16%;
+}
+h1#gt{
+    transform: translate(775px, 200px);
+}
+h1#horizon{
+    transform: translate(50px, -200px);
+}
+h1#taiga{
+    transform: translate(100px,-800px);
+}
 
 
 img#logo{
@@ -43,7 +57,16 @@ img#logo{
     transform: translate(40px, 0px);
 }
 img#sportCar{
-    transform: translate(10px, -50px);
+    transform: translate(500px, 100px);
+    margin-bottom: 0px;
+}
+img#suv{
+    transform: translate(50px,-250px);
+    margin-bottom: 0px;
+}
+img#truck{
+    transform: translate(250px,-835px);
+    margin-bottom: 0px;
 }
 
 
@@ -52,6 +75,8 @@ figcaption{
     font-family: 'Carter One', cursive;
     font-size: 48px;
     color: white;
+    background-color: black;
+    width: 20%;
 }
 
 
